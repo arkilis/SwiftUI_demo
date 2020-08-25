@@ -14,6 +14,7 @@
 		B5FA463F24F5B80E0086BE02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5FA463E24F5B80E0086BE02 /* Preview Assets.xcassets */; };
 		B5FA464224F5B80E0086BE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5FA464024F5B80E0086BE02 /* LaunchScreen.storyboard */; };
 		B5FA464A24F5C2E70086BE02 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA464924F5C2E70086BE02 /* CircleImage.swift */; };
+		B5FA464D24F5C8620086BE02 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5FA464C24F5C8620086BE02 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5FA464124F5B80E0086BE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5FA464324F5B80E0086BE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5FA464924F5C2E70086BE02 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		B5FA464C24F5C8620086BE02 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,9 @@
 		B5FA463424F5B80B0086BE02 /* swiftUI Test */ = {
 			isa = PBXGroup;
 			children = (
+				B5FA464B24F5C82B0086BE02 /* Views */,
 				B5FA463524F5B80B0086BE02 /* AppDelegate.swift */,
 				B5FA463724F5B80B0086BE02 /* SceneDelegate.swift */,
-				B5FA463924F5B80B0086BE02 /* ContentView.swift */,
-				B5FA464924F5C2E70086BE02 /* CircleImage.swift */,
 				B5FA463B24F5B80E0086BE02 /* Assets.xcassets */,
 				B5FA464024F5B80E0086BE02 /* LaunchScreen.storyboard */,
 				B5FA464324F5B80E0086BE02 /* Info.plist */,
@@ -76,6 +77,16 @@
 				B5FA463E24F5B80E0086BE02 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B5FA464B24F5C82B0086BE02 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B5FA463924F5B80B0086BE02 /* ContentView.swift */,
+				B5FA464924F5C2E70086BE02 /* CircleImage.swift */,
+				B5FA464C24F5C8620086BE02 /* MapView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				B5FA463624F5B80B0086BE02 /* AppDelegate.swift in Sources */,
 				B5FA464A24F5C2E70086BE02 /* CircleImage.swift in Sources */,
+				B5FA464D24F5C8620086BE02 /* MapView.swift in Sources */,
 				B5FA463824F5B80B0086BE02 /* SceneDelegate.swift in Sources */,
 				B5FA463A24F5B80B0086BE02 /* ContentView.swift in Sources */,
 			);
